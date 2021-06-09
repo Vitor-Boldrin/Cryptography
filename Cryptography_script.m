@@ -39,15 +39,3 @@ for dim = 1:3
     end
 end
 D = uint8(D);
-figure(1)
-image(E)
-set(gca, 'Visible', 'off')
-%saveas(gcf,'imecc_E.png')
-figure(2)
-image(C)
-set(gca, 'Visible', 'off')
-%saveas(gcf,'imecc_C.png')
-figure(3)
-image(D)
-set(gca, 'Visible', 'off')
-%saveas(gcf,'imecc_D.png')
