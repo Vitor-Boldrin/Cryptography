@@ -8,7 +8,7 @@ key = 10;
 A = fliplr(vander(1:key));
 A = A(:,1:key);
 
-%Decomposição QR
+%DecomposiÃ§Ã£o QR
 [Q,R] = qr(A);
 
 %Encriptografando
